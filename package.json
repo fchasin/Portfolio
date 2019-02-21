@@ -1,0 +1,27 @@
+{
+  "name": "fred-chasin-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio page for fred chasin",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fchasin/Portfolio.git"
+  },
+  "author": "Fred Chasin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fchasin/Portfolio/issues"
+  },
+  "homepage": "https://github.com/fchasin/Portfolio#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "next": "^8.0.1",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  }
+}
