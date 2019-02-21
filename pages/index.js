@@ -1,18 +1,36 @@
-import Project from '../components/Project';
 import Link from 'next/link';
+
+import Project from '../components/Project';
 import Layout from '../components/Layout';
+import Footer from '../components/Footer';
 
 const Index = () => (
-  <div>
+  <div id="index">
     <Layout>
-      <p>Hello Next.js</p>
+      <div>
+        I'm Fred Chasin, and I work as a{' '}
+        <a href="https://github.com/fchasin">developer</a> in NodeJS and React,
+        currently living in New Orleans.
+      </div>
       <Project name={'first'} />
       <Link href="/cv">
-        <a style={{ fontSize: 20 }}>
-          <p>My CV</p>
-        </a>
+        <a style={{ fontSize: 20 }}>My CV</a>
       </Link>
+      <Footer />
     </Layout>
+    <style jsx>{`
+      #index {
+        display: grid;
+      }
+      p {
+        font-family: 'Lato', sans-serif;
+        font-size: 10rem;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    `}</style>
   </div>
 );
 

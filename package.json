@@ -25,6 +25,8 @@
     "next": "^8.0.1",
     "nodemon": "^1.18.10",
     "react": "^16.8.2",
-    "react-dom": "^16.8.2"
+    "react-dom": "^16.8.2",
+    "react-scrollable-anchor": "^0.6.1",
+    "styled-jsx": "^3.2.1"
   }
 }
