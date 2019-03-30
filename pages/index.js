@@ -13,9 +13,8 @@ const Index = () => (
         currently living in New Orleans.
       </div>
       <Project name={'first'} />
-      <Link href="/cv">
-        <a style={{ fontSize: 20 }}>My CV</a>
-      </Link>
+      
+        <a download="../FredChasinResume.pdf" style={{ fontSize: 20 }}>My CV</a>
       <Footer />
     </Layout>
     <style jsx>{`
