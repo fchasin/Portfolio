@@ -1,12 +1,14 @@
 import Layout from '../components/Layout';
 
-export default () => (
-  <Layout>
-    <div>
-      <form>
-        <label>Contact Us!</label>
-        <input />
-      </form>
-    </div>
-  </Layout>
-);
+export default () => {
+  return (
+    <Layout>
+      <div>
+        <form>
+          <label>Contact Me</label>
+          <input />
+        </form>
+      </div>
+    </Layout>
+  );
+};

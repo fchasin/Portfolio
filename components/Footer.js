@@ -1,5 +1,5 @@
 import SiteLink from './SiteLink';
-export default props => (
+export default () => (
   <div>
     <SiteLink
       name="LinkedIn"
