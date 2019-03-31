@@ -33,7 +33,7 @@ class MyDocument extends Document {
             font-size: 10px;
             height: 100%;
             overflow: hidden;
-
+            border: 0;
           }
           *,
           *:before,
@@ -43,8 +43,11 @@ class MyDocument extends Document {
               -webkit-overflow-scrolling: touch;
               padding: 0;
               margin: 0;
-              font-size: 1.5rem;
+              font-size: 2.25rem;
               background: white;
+              justify-items: center;
+              align-items: center;
+              display: grid;
               position: absolute;
               top: 0;
               left: 0;
@@ -52,11 +55,16 @@ class MyDocument extends Document {
               bottom: 0;
               overflow: scroll;
               scroll-behavior: smooth;
-              font-family: 'Lato', sans-serif;
-            }
+              font-family: 'Lato', sans-serif;   
+                   }
             a {
               text-decoration: none;
               font-family: 'Lato', sans-serif;
+              color: #ff2353;
+            }
+            
+            i {
+              font-size: 5rem;
             }`}
           </style>
         </Head>

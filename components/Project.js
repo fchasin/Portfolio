@@ -1,7 +1,18 @@
 export default props => (
   <div>
-    <a href="https://foodedrop.herokuapp.com">
-      <h2>this is {props.name} project</h2>
+    <a href={props.address}>
+      <h4>
+        <i class={props.img} className="icon" />
+        {'  '}
+        {props.name}
+      </h4>
     </a>
+    <style jsx>
+      {`
+        .icon {
+          font-size: 2rem;
+        }
+      `}
+    </style>
   </div>
 );
