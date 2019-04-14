@@ -7,7 +7,7 @@ export default () => (
       link="https://linkedin.com/in/fred-chasin-99460151/"
     />
     {' || '}
-    <SiteLink name="Email" link="fchasin52@gmail.com" />
+    <SiteLink name="Email" link="mailto:fchasin52@gmail.com" />
     {' || '}
     <SiteLink name="Github" link="https://github.com/fchasin" />
     {' || '}
