@@ -60,7 +60,7 @@ class MyDocument extends Document {
             a {
               text-decoration: none;
               font-family: 'Lato', sans-serif;
-              color: #ff2353;
+              color: #1c1c1c;
             }
             
             i {

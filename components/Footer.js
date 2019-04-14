@@ -11,7 +11,10 @@ export default () => (
     {' || '}
     <SiteLink name="Github" link="https://github.com/fchasin" />
     {' || '}
-    <a href="../FredChasinResume.pdf" download>
+    <a
+      href="https://dl1.volafile.org/get/CGV6vsQ5yttEk/Fred%20Chasin%20Resume%203-30.pdf"
+      download
+    >
       My CV
     </a>
   </div>

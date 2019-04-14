@@ -7,7 +7,7 @@ const Index = () => (
   <div id="index">
     <Layout>
       <div className="daBod">
-        <div>
+        <div id="header">
           <h1>Hi, I'm Fred,</h1>
           <h2>
             and I work as a full-stack{' '}
@@ -17,20 +17,18 @@ const Index = () => (
         </div>
         <div id="projects">
           <h3>Projects</h3>
-          <div>
+          <div className="list">
             <Project
-              className="list"
-              name="College List Project"
               address="https://uscollegelist.herokuapp.com/"
               img={'fas fa-university'}
+              text="Easily-navigable search system for US universities using open-source US Gov data."
             />
           </div>
-          <div>
+          <div className="list">
             <Project
-              className="list"
-              name="FoodEDrop"
               address="https://foodedrop.herokuapp.com"
-              img={'fas fa-utensils'}
+              img="..\static\transparent-logo.png"
+              text="Solutions for large-scale food delivery to locations in the greater Baton Rouge area."
             />
           </div>
         </div>
@@ -47,8 +45,6 @@ const Index = () => (
         font-family: 'Lato', sans-serif;
         color: #1c1c1c;
       }
-      p {
-      }
       a {
         text-decoration: none;
         color: #ff2353;
@@ -57,16 +53,21 @@ const Index = () => (
         text-align: center;
       }
       #header {
-        text-align: right;
+        text-align: left;
+        margin: 0 auto;
+        width: 60%;
       }
       #footer {
         text-align: center;
       }
+      #footer a {
+        color: #ff2353;
+      }
       .list {
-        width: 25%;
+        margin: 2rem auto;
+        width: 60%;
         height: 25%;
-        text-align: center;
-        position: relative;
+        align-items: center;
       }
       .cv {
         margin: 0.5rem;
