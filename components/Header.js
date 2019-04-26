@@ -12,7 +12,6 @@ const Header = () => (
     <Link href="/contact">
       <a style={linkStyle}>Contact Me</a>
     </Link>
-    <style jsx />
   </div>
 );
 
