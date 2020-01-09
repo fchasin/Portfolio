@@ -20,7 +20,7 @@ const Index = () => (
           <div className="list">
             <Project
               address="https://uscollegelist.herokuapp.com/"
-              img={'fas fa-university'}
+              img="../static/data.gov_-2.png"
               text="Easily-navigable search system for US universities using open-source US Gov data."
             />
           </div>
